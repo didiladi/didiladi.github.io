@@ -6,50 +6,50 @@
     <description>Recent content on Dieter Ladenhauf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jan 2018 18:25:22 +0530</lastBuildDate>
     
 	<atom:link href="https://didiladi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Cash Phoenix</title>
-      <link>https://didiladi.github.io/projects/01-cash-phoenix/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <title>Photo Pilot</title>
+      <link>https://didiladi.github.io/projects/photo-pilot/</link>
+      <pubDate>Fri, 05 Jan 2018 18:25:22 +0530</pubDate>
       
-      <guid>https://didiladi.github.io/projects/01-cash-phoenix/</guid>
-      <description>&lt;p&gt;Cash Phoenix is an Android/iOS app for tracking your personal expenses.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Color Swipe</title>
-      <link>https://didiladi.github.io/projects/02-color-swipe/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
-      
-      <guid>https://didiladi.github.io/projects/02-color-swipe/</guid>
-      <description>&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-&lt;/p&gt;</description>
+      <guid>https://didiladi.github.io/projects/photo-pilot/</guid>
+      <description>Ever wondered if the cumbersome task of manual photo selection (for e.g. a photo album) could be automated? Photo Pilot to the rescue!
+Photo pilot is a platform independent Electron app which uses convolutional neural networks (CNN) to decide whether a photo fulfills certain quality standards.</description>
     </item>
     
     <item>
       <title>Fitness Tracker</title>
-      <link>https://didiladi.github.io/projects/03-fitness-tracker/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <link>https://didiladi.github.io/projects/fitness-tracker/</link>
+      <pubDate>Tue, 05 Dec 2017 18:25:22 +0530</pubDate>
       
-      <guid>https://didiladi.github.io/projects/03-fitness-tracker/</guid>
+      <guid>https://didiladi.github.io/projects/fitness-tracker/</guid>
       <description>&lt;p&gt;How to build your own machine learning-enabled fitness tracker? This personal project explores several topics, from microcontroller and sensor hardware, firmware development and machine learning for motion detection.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Photo Pilot</title>
-      <link>https://didiladi.github.io/projects/04-photo-pilot/</link>
+      <title>Expense Phoenix</title>
+      <link>https://didiladi.github.io/projects/expense-phoenix/</link>
+      <pubDate>Sun, 05 Nov 2017 18:25:22 +0530</pubDate>
+      
+      <guid>https://didiladi.github.io/projects/expense-phoenix/</guid>
+      <description>Expense Phoenix is an Android/iOS app for tracking your personal expenses. The goal was to create a platform-independent ionic app which can be trusted. Sure, there are a ton of other apps out there, which provide the same functionality. However, can you really trust these apps with your personal financial data?</description>
+    </item>
+    
+    <item>
+      <title>Color Swipe</title>
+      <link>https://didiladi.github.io/projects/color-swipe/</link>
       <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
       
-      <guid>https://didiladi.github.io/projects/04-photo-pilot/</guid>
-      <description>&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-&lt;/p&gt;</description>
+      <guid>https://didiladi.github.io/projects/color-swipe/</guid>
+      <description>&lt;p&gt;Color Swipe is a thrilling Android/iOS game where you have to swipe the colors into the correct direction. It is based on ionic which sits on top of apache cordova. The UI is done mainly with d3.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

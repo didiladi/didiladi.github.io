@@ -841,10 +841,6 @@ a.pagination-item:hover {
 .box-masonry .box-masonry-text {
   padding: 15px 20px 15px;
 }
-.box-masonry .box-masonry-text p {
-  color: #999999;
-  font-size: 14px;
-}
 .box-masonry .box-masonry-hover-text-header {
   position: absolute;
   left: 0;
@@ -940,8 +936,13 @@ a.pagination-item:hover {
   text-decoration: none;
 }
 
-.content-column {
+.box-masonry-description > p {
+  font-size: 1em;
+}
 
+.projectdetails {
+  margin-top: -0.2em;
+  margin-bottom: 2em;
 }
 
 .grid {
@@ -950,8 +951,9 @@ a.pagination-item:hover {
 }
 
 .grid > * {
-  flex: 0 1 50%;
+  flex: 0 1 100%;
 }
+
 
 
 
