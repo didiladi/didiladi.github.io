@@ -45,10 +45,12 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -79,17 +81,18 @@ a:focus {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: bold;
+  font-weight: 100;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
 }
 h3 {
   margin-top: 1.5rem;
@@ -107,7 +110,8 @@ p {
 }
 
 strong {
-  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 
@@ -129,7 +133,8 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
+  width: calc(100% + 2rem);
+  border-top: 1px solid #999;
   border-bottom: 1px solid #fff;
 }
 
@@ -223,6 +228,10 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
+tbody tr:nth-child(even) td,
+tbody tr:nth-child(even) th {
+  background-color: white;
+}
 
 
 /*
@@ -234,6 +243,49 @@ tbody tr:nth-child(odd) th {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+}
+
+
+/*
+ * This is the hand-written motto
+ * "I like to destroy/create stuff"
+ */
+.create {
+  
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  font-family: 'Indie Flower', cursive;
+  white-space: nowrap;
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  justify-content: center;
+
+  font-size: 1.5rem;
+}
+
+.create > * {
+  margin: 0.25rem;
+}
+
+.create > div {
+  position: relative;
+}
+.create > div > p:nth-child(1) {
+  text-decoration: line-through;
+  text-decoration-color: #268bd2;
+  text-decoration-style: solid;
+}
+
+.create > div > p:nth-child(2) {
+
+  position: absolute;
+  top: -1.5rem;
+  left: 2rem;
+  color: #268bd2;
 }
 
 
@@ -251,8 +303,325 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+/*
+ * The following classes are used for the cv:
+ */
+
+.cv-item,
+.cv-item > div {
+  
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.cv-item > div:first-child {
+  flex: 9.8rem 0 0;
+}
+
+.cv-item > div:last-child {
+  flex: 100% 1 1;
+}
+
+.cv-item > div > * {
+  margin-right: 0.2rem;
+}
+
+.cv-item > p {
+  font-size: 1.25rem;
+}
+
+.cv-container {
+  
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+
+.cv-container:hover::after {
+  
+  background: #f9f9f9;
+  content: '';
+  width: 10000%;
+  height: calc(100% + 3.5rem);
+  position: absolute;
+  top: -1.5rem;
+  left: -100%;
+  z-index: -2;
+  overflow-x: hidden;
+}
+
+.cv-container thead {
+  display: none;
+}
+
+.cv-container table {
+  margin-left: 2rem;
+}
+
+.cv-container tr > td:first-child {
+  width: 7rem;
+}
+
+.bubble {
+  position: absolute;
+  right: -21rem;
+  width: 20rem;
+  height: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble > div {
+
+  background: white;
+  color: #666;
+  border: 1px solid #999;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+
+.cv-container:hover > .bubble > div {
+
+  background: #268bd2;
+  color: white;
+
+  transition-property: background;
+}
+
+.bubble > div > * {
+  align-self: center;
+}
+
+.bubble > div.xs {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+}
+
+.bubble > div.s {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+
+.bubble > div.m {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+}
+
+.bubble > div.l {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 7rem;
+}
+
+.bubble > div.xl {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 9rem;
+  min-height: 9rem;
+}
+
+.bubble > div.xs::before {
+  content: ' ';
+  width: 0;
+  height: calc(100% + 2rem);
+  position: absolute;
+  border-right: 1px solid #999;
+  top: 0;
+  right: 50%;
+  z-index: -2;
+}
+
+.bubble > div.s::before,
+.bubble > div.m::before,
+.bubble > div.l::before,
+.bubble > div.xl::before {
+  content: ' ';
+  width: 0;
+  height: 200%;
+  position: absolute;
+  border-right: 1px solid #999;
+  top: 0;
+  right: 50%;
+  z-index: -2;
+}
+
+.cv-container:hover > .bubble > div::after {
+  content: '';
+  width: 0;
+  height: calc(100% + 3.5rem);
+  position: absolute;
+  border-right: 5px solid #268bd2;
+  top: calc(0% - 1.5rem);
+  right: 50%;
+  z-index: -1;
+}
+
+.bubble > div > * {
+  margin: 0.2rem;
+  font-size: 1.5rem;
+}
+.bubble > div > *:last-child {
+  font-size: 0.7rem;
+}
 
 /*
+ * CV-Photo styles:
+ */
+
+.cv-photo {
+  display: none;
+  position: absolute;
+  left: 45rem;
+  top: 3rem;
+  width: 268px;
+  height: 333px;
+}
+
+@media (min-width: 74em) {
+  .cv-photo {
+    display: block;
+  }
+}
+
+.cv-photo > img {
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  width: 268px;
+  height: 333px;
+
+  transition-duration: 0.7s;
+  transition-property: opacity;
+}
+
+.cv-photo > img:first-child {
+  opacity: 1;
+}
+
+.cv-photo > img:last-child {
+  opacity: 0;
+}
+
+.cv-photo:hover > img:first-child {
+  opacity: 0;
+}
+
+.cv-photo:hover > img:last-child {
+  opacity: 1;
+}
+
+
+/*
+ * CV-Line styles:
+ */
+
+.cv-line-header {
+  display: flex;
+  flex-flow: row nowrap;
+
+  position: relative;
+}
+
+.cv-line-header p {
+  margin-left: -1.0rem;
+  font-size: 0.8rem;
+}
+
+.cv-line-header > div:first-child::after {
+  background: white;
+}
+
+.cv-line-header > div:nth-child(2)::after,
+.cv-line-header > div:last-child::after {
+  background: white;
+}
+
+.cv-line-header > div::after {
+  position: absolute;
+  content: '';
+  top: 80%;
+  bottom: -700%;
+  width: 1px;
+  background: #ddd;
+  z-index: -2;
+}
+
+.cv-line-header + p + .cv-line {
+  display: none;
+}
+
+.cv-line {
+  display: flex;
+  flex-flow: row nowrap;
+  
+  border: 2px solid transparent;
+  position: relative;
+}
+
+.cv-line:hover {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.cv-line h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.cv-line > div:first-child,
+.cv-line-header > div:first-child {
+  flex: 10rem 0 0;
+}
+
+
+.cv-line > div:nth-child(2) {
+}
+
+/*
+.cv-line > div:nth-child(2)::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  top: -10%;
+  border: 1px solid #ccc;
+  z-index: -2;
+}
+*/
+
+.cv-line > div:nth-child(3) {
+  background: #268bd2;
+}
+
+/*
+.cv-line > div:nth-child(3)::after {
+  position: absolute;
+  content: '';
+  top: -1000%;
+  bottom: 100%;
+  border: 1px solid #ccc;
+  z-index: -2;
+}
+*/
+
+.cv-line > div:nth-child(4) {
+  
+}
+
+
+ /*
  * Container
  *
  * Center the page content.
@@ -293,6 +662,48 @@ tbody tr:nth-child(odd) th {
   letter-spacing: 0;
 }
 
+/*
+ * Skills bar charts:
+ *
+ */
+
+.bar-chart-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+
+.bar-chart-container > * {
+  
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+
+  margin: 0.2 0.2rem;
+  flex: 1rem 1 1;
+  align-self: normal;
+}
+
+.bar {
+  background: #268bd2;
+  margin-top: 0.5rem;
+}
+
+.bar-title {
+  flex: 15 0 0;
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.empty {
+  min-width: 2.5rem;
+  margin-left: 5px;
+  height: 1.2rem;
+  align-self: flex-end;
+  font-size: 0.8rem;
+}
 
 /*
  * Posts and pages
@@ -401,3 +812,146 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+
+
+
+
+
+
+
+.box-masonry {
+  background: #fff;
+  border: solid 1px #ddd;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.box-masonry:hover {
+  box-shadow: 0 0 5px #ccc;
+}
+
+.box-masonry h2 {
+  margin: 0.5em 0;
+}
+.box-masonry .box-masonry-text {
+  padding: 15px 20px 15px;
+}
+.box-masonry .box-masonry-text p {
+  color: #999999;
+  font-size: 14px;
+}
+.box-masonry .box-masonry-hover-text-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 15px 20px 15px;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #555555;
+}
+.box-masonry .box-masonry-hover-text-header p {
+  font-size: 14px;
+}
+.box-masonry .box-masonry-hover-text-header h4 a {
+  color: #555555;
+}
+.box-masonry .box-masonry-hover-center {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  opacity: 0;
+  padding-left: 20px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-align: center;
+}
+.box-masonry .box-masonry-hover-center .see-more-icon {
+  color: #555555;
+  font-size: 50px;
+}
+.box-masonry:hover {
+  box-shadow: 0 0 5px #999;
+}
+.box-masonry:hover .box-masonry-hover-text-header {
+  opacity: 1;
+}
+.box-masonry:hover .box-masonry-hover-center {
+  opacity: 1;
+}
+.box-masonry:hover .box-masonry-image.with-hover-overlay:before {
+  opacity: 0.8;
+}
+.box-masonry:hover .box-masonry-image.with-hover-icon:after {
+  opacity: 0.7;
+}
+.box-masonry h2:last-child,
+.box-masonry p:last-child {
+  margin-bottom: 0;
+}
+.box-masonry .box-masonry-image {
+  display: block;
+  position: relative;
+  min-height: 100px;
+  background: #ccc;
+}
+.box-masonry .box-masonry-image.with-hover-overlay:before {
+  display: block;
+  position: absolute;
+  content: " ";
+  background: #fff;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.box-masonry .box-masonry-image.with-hover-icon:after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  font-family: 'FontAwesome';
+  content: '\f105';
+  text-align: center;
+  font-size: 50px;
+  color: #555555;
+}
+.box-masonry .box-masonry-image:hover {
+  text-decoration: none;
+}
+
+.content-column {
+
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.grid > * {
+  flex: 0 1 50%;
+}
+
+
+

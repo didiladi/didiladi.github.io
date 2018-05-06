@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://didiladi.github.io/cv/</loc>
+    <lastmod>2018-04-17T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/cv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/cv/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/projects/01-cash-phoenix/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/projects/02-color-swipe/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/projects/03-fitness-tracker/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/projects/04-photo-pilot/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/cv/00-petersgasse/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/cv/00-petersgasse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/cv/00-petersgasse/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/cv/01-bachelor/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/cv/01-bachelor/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/cv/01-bachelor/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/cv/02-kapsch/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/cv/02-kapsch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/cv/02-kapsch/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/cv/03-master/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/cv/03-master/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/cv/03-master/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/cv/04-eegs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/cv/04-eegs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/cv/04-eegs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/cv/05-dynatrace/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/cv/05-dynatrace/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/cv/05-dynatrace/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/cv/06-bildungskarenz/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/cv/06-bildungskarenz/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/cv/06-bildungskarenz/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/projects/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/tags/"
+                />
+  </url>
+  
+</urlset>
