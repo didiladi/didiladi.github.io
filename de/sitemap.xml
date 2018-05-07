@@ -18,6 +18,66 @@
   </url>
   
   <url>
+    <loc>https://didiladi.github.io/de/projects/photo-pilot/</loc>
+    <lastmod>2018-01-05T18:25:22+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/projects/photo-pilot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/projects/photo-pilot/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/de/projects/fitness-tracker/</loc>
+    <lastmod>2017-12-05T18:25:22+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/projects/fitness-tracker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/projects/fitness-tracker/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/de/projects/expense-phoenix/</loc>
+    <lastmod>2017-11-05T18:25:22+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/projects/expense-phoenix/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/projects/expense-phoenix/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/de/projects/color-swipe/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/projects/color-swipe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/projects/color-swipe/"
+                />
+  </url>
+  
+  <url>
     <loc>https://didiladi.github.io/de/cv/00-petersgasse/</loc>
     <xhtml:link
                 rel="alternate"
@@ -132,6 +192,7 @@
   
   <url>
     <loc>https://didiladi.github.io/de/</loc>
+    <lastmod>2018-01-05T18:25:22+05:30</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -142,6 +203,22 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://didiladi.github.io/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://didiladi.github.io/de/projects/</loc>
+    <lastmod>2018-01-05T18:25:22+05:30</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://didiladi.github.io/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://didiladi.github.io/de/projects/"
                 />
   </url>
   

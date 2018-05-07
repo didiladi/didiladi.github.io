@@ -18,7 +18,7 @@
       
       <guid>https://didiladi.github.io/projects/photo-pilot/</guid>
       <description>Ever wondered if the cumbersome task of manual photo selection (for e.g. a photo album) could be automated? Photo Pilot to the rescue!
-Photo pilot is a platform independent Electron app which uses convolutional neural networks (CNN) to decide whether a photo fulfills certain quality standards.</description>
+This project is a platform independent Electron app which uses convolutional neural networks (CNN) to decide whether a photo fulfills certain quality standards.</description>
     </item>
     
     <item>
